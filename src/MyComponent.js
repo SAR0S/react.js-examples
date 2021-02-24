@@ -11,13 +11,16 @@ class MyComponent extends Component {
         age: PropTypes.number.isRequired // 필수적으로 존재햐아 하며 숫자임.
     }
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            number: 0
-        }
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         number: 0
+    //     }
+    // }
 
+    state = {
+        number: 0
+    }
 
     render() {
         return (
