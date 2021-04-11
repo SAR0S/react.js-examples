@@ -8,7 +8,7 @@ class CssTest extends Component {
 
                 <div className={styles.boxsHome}>
 
-                    <div className={styles.flex}>
+                    <div className={styles.left}>
                         <div className={styles.box}></div>
                         <h3>new Blue! new Lions!</h3>
                     </div>
