@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import LifecycleEx from './components/React200/R006_LifecycleEx.js';
+import LifecycleEx from './components/React200/R008_LifecycleEx.js';
 
 class App extends Component {
   render() {
