@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import LifecycleEx from './components/React200/R008_LifecycleEx.js';
+import Es6 from './components/React200/R009_Es6';
 
 class App extends Component {
   render() {
@@ -8,9 +8,7 @@ class App extends Component {
       <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기</p>
-        <LifecycleEx
-          prop_value = 'FromApp.js' 
-        />
+        <Es6/>
       </div>
     );
   }
