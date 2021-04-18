@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ClassAndPrototype from './components/React200/R012_ClassAndPrototype';
+import ArrowFunction from './components/React200/R013_ArrowFunction';
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기</p>
-        <ClassAndPrototype/>
+        <ArrowFunction/>
       </div>
     );
   }
