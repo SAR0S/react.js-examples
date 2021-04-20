@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ForEach from './components/React200/R014_ForEach';
+import Map from './components/React200/R015_Map';
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기</p>
-        <ForEach/>
+        <Map/>
       </div>
     );
   }
