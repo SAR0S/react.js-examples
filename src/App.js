@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Map from './components/React200/R015_Map';
+import Props from './components/React200/R017_Props';
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기</p>
-        <Map/>
+        <Props props_val="THIS IS PROPS"/>
       </div>
     );
   }
